@@ -10,7 +10,7 @@ docker build -t public.ecr.aws/parikshit/s5cmd:arm64 --build-arg ARCH=arm64/ .
 docker build -t public.ecr.aws/parikshit/s5cmd:amd64 --build-arg ARCH=amd64/ .
 
 # push images
-docker push public.ecr.aws/parikshit/s5cmd:arm64d
+docker push public.ecr.aws/parikshit/s5cmd:arm64
 docker push public.ecr.aws/parikshit/s5cmd:amd64
 
 #b create menifest
